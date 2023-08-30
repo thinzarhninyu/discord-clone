@@ -27,7 +27,6 @@ export async function POST (req: Request) {
                 members: {
                     create: [
                         { profileId: profile.id, role: MemberRole.ADMIN},
-                        { profileId: profile.id, role: MemberRole.MODERATOR}
                     ]
                 }
             }
